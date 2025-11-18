@@ -1,0 +1,10 @@
+Persons: Alice { Manager, age 40 } Bob { Employee, age 35 } 
+Carol { Employee, age 30 } Dave { Manager, age 45 } Fred { Employee, age 50 }
+Task Report Strategy person Alice priority: 5
+Task Pay 5000 euro person Bob priority: 2
+Task Lunch Canteen person Fred priority: 8 duration: 1 hour
+Task Meeting "Demo" person Alice priority: 4 duration: 90 min
+Task Meeting "Training" person Carol priority: 7 duration: 3 day
+Task Report Overview person Dave priority: 2 duration: 9 week 
+Task Pay 3500 euro person Bob priority: 3 
+Task Lunch Restaurant person Dave priority: 6 duration: 2 hour

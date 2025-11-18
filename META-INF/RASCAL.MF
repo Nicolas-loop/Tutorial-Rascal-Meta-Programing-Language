@@ -1,4 +1,4 @@
 Manifest-Version: 0.0.1
 Project-Name: tutorial-rascal-meta-programing-language
 Source: src/main/rascal
-Require-Libraries: |lib://dsl-project|
+Require-Libraries: |lib://dsl-project|, |lib://typepal|, |lib://rascal-lsp|
