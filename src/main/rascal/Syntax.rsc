@@ -10,10 +10,15 @@ syntax PersonTasks
     = personTasks: 'Person' ID name Task+ tasks
 ;
 syntax Task 
-    = task:
+     = task:
     'Task' Action action
-    'priority' ':' INT prio
+    'person' ID name
+    'priority:' INT prio
     Duration? duration
+;
+syntax Role
+     = manager: 'Manager'
+     | employee: 'Employee' 
 ;
 syntax Duration 
     = duration: 'duration' ':' INT dl TimeUnit unit
